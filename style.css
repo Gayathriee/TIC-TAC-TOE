@@ -1,0 +1,67 @@
+body{
+    background-color: #58508d;
+}
+#form{
+    margin-top: 2%;
+     margin-left: 25%;
+     margin-bottom: 5%;
+     width: 50%;
+     padding: 1em;
+     border: 1px solid #003f5c;
+     background-color: #003f5c;
+     border-radius: 1em;
+    }
+h1 {
+    color: #ffa600;
+    font-size: 45px;
+}
+/* Game Instruction Text */
+#ins {
+    font-family: Arial, Helvetica, sans-serif;   
+    color:#ff6361;
+    font-size: 16px;
+}
+
+
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#btn {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid #bc5090;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+    background-color:#bc5090;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    font-size: 22px;
+}
+/* Player turn space */
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color:#bc5090;
+    font-size: 20px;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
